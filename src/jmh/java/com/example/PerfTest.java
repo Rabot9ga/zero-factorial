@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 3, time = 5)
 @BenchmarkMode(value = Mode.AverageTime)
 @Measurement(iterations = 3, time = 10)
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
+@OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class PerfTest {
 
     private int n;
