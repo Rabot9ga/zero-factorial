@@ -19,7 +19,7 @@ Usage:
 ``` bash 
 ./gradlew jmh
 ```
-Benchmarks were performed using n=10000
+The benchmarks were performed using n=10000
 
 | Benchmark             | Mode | Cnt | Score         | Error   | Units |
 |-----------------------|------|-----|---------------|---------|-------|
